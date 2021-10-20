@@ -1,0 +1,44 @@
+.mainAbout {
+  padding: 3% 15%;
+}
+
+.navbar{
+  padding: 0 15%;
+
+}
+
+hr {
+
+  width: 20%;
+  height: 1rem;
+}
+
+.title {
+  text-align: center;
+
+}
+
+.mySkills{
+  text-align: center;
+  padding: 3% 15%;
+}
+
+
+.myProjects{
+  text-align: center;
+  padding: 3% 15%;
+}
+
+footer{
+  text-align: center;
+  padding: 3% 15%;
+}
+
+.me{
+  text-align: center;
+}
+
+.right{
+  text-align:right;
+
+}
