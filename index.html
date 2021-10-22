@@ -3,104 +3,124 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/79ef85ecc0.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="KM.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Khomkrit Mok</title>
   </head>
   <body>
     <!-- nav -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Krit's Portfolio</a>
+    <nav class="navbar fixed-top navbar-expand-lg  navbar-light bg-light">
+      <a class="navbar-brand" id="home" href="#home">Krit's Portfolio</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collappse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Skills</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
 
     <!-- main - about -->
 
-    <div class="mainAbout container-fluid">
+    <div class="mainAbout container-fluid" id="about">
       <div class="row">
         <div class="col-lg-6 align-self-center">
-          <h3>Hi! I am</h3>
-          <h1 class="me">Khomkrit Mok</h1>
-          <p class="right">,an inspiring Web Developer.</p>
+          <div class="container-fluid textBox">
+            <h5>Hi! I am</h5>
+            <h3>Khomkrit Mok</h3>
+            <span>,an inspiring Web Developer </span>
+            <span class="line">with an unending passion to learn new technology.</span>
+    
+          </div>
+            
+          
+          
+
         </div>
         <div class="col-lg-6">
-          <img src="Krit.png" alt="My image" class="mx-auto d-block">
-          <a href="#" class="btn mx-auto d-block">Download CV</a>
+          <img src="Krit.png" alt="My image" class="mx-auto d-block img-fluid">
+          
+          <a href="https://drive.google.com/file/d/1o2VCOwRVILnyFcR-5_J8oWVcAge2M7oe/view?usp=sharing" target="_blank" class="btn mx-auto d-block">My Resume</a>
+          
         </div>
       </div>
     </div>
 
-    <!-- main - Projects -->
-    <div class="title">
-      <h2>My Projects</h2>
-      <hr>
-    </div>
-
-    <div class="myProjects container-fluid">
-      <div class="card">
-        <img src="codingCoursesReview.png" class="card-img-top img-fluid" alt="">
-        <div class="card-body">
-          <p class="card-text">Coding Courses review is a review site that allows user to leave reviews on various review sites </p>
-          <div class="card-body">
-            <a href="#" class="card-link">See Website</a>
-            <a href="#" class="card-link">Source Code</a>
-          </div>
-        </div>
-      </div>
-      <div class="card mt-5">
-        <img src="shoppingList.png" class="card-img-top img-fluid" alt="">
-        <div class="card-body">
-          <p class="card-text">Coding Courses review is a review site that allows user to leave reviews on various review sites </p>
-          <div class="card-body">
-            <a href="#" class="card-link">See Website</a>
-            <a href="#" class="card-link">Source Code</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
+    
 
 
     <!-- main - Skills -->
-    <div class="title">
-      <h2>My Skills</h2>
-      <hr>
-    </div>
 
-    <div class="mySkills container-fluid">
+
+    <div class="mySkills container-fluid bg-light" id="skills">
+      <div class="title">
+        <h2>My Skills</h2>
+        <hr>
+      </div>
       <div class="row">
-        <div class="col-lg-6">
-          <h2>Frontend</h2>
+        <div class="col-lg-4">
+          <h4>Frontend</h4>
           <p>Html</p>
           <p>CSS</p>
           <p>Javascript</p>
           <p>Bootstrap</p>
         </div>
-        <div class="col-lg-6">
-          <h2>Backend</h2>
+        <div class="col-lg-4">
+          <h4>Backend</h4>
           <p>Node.js</p>
           <p>Express.js</p>
           <p>Mongodb</p>
-          <p>Ejs</p>
+          <p>EJS</p>
+        </div>
+        <div class="col-lg-4">
+          <h4>Other tools</h4>
+          <p>Git</p>
+          <p>Github</p>
         </div>
       </div>
     </div>
 
+    <!-- main - Projects -->
+    <div class="myProjects container-fluid" id="projects">
+      <div class="title">
+        <h2>My Projects</h2>
+        <hr>
+      </div>
+      <div class="card">
+        <img src="project1.PNG" class="card-img-top img-fluid" alt="">
+        <div class="card-body">
+            <span class="card-text line">Coding Courses Review is a review site that </span>
+            <span class="card-text line">allows visitors to easily read or share programming courses reviews.</span> 
+          <div class="card-body">
+            <a href="https://krit-coding-courses-review.herokuapp.com/"  target="_blank"  class="card-link">Website</a>
+            <a href="https://github.com/kritmok/krit-coding-course-review"  target="_blank" class="card-link"><i class="fab fa-github-square"></i> Code</a>
+          </div>
+        </div>
+      </div>
+      <div class="card mt-5">
+        <img src="project2.PNG" class="card-img-top img-fluid" alt="">
+        <div class="card-body">
+          <span class="card-text line">Shopping List is a mobile-friendly website that allows users to add items to a list as a reminder. </span>
+          <span class="card-text line">All added items will be directly sent to an existing database using mongodb Atlas.</span>
+          <div class="card-body">
+            <a href="https://krit-todolist.herokuapp.com/"  target="_blank" class="card-link">Website</i></a>
+            <a href="https://github.com/kritmok/krit-todolist"  target="_blank" class="card-link"><i class="fab fa-github-square"></i> Code</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
 
     <!-- footer - contact -->
-    <footer class="bg-light">
-      email me : kkmok830@hotmail.com
+    <footer class="bg-light" id="contact">
+      <p class="text-secondary">Email Me : <a class="text-secondary" href="mailto:khomkritmok@hotmail.com">khomkritmok@hotmail.com</a> </p>
     </footer>
 
 
@@ -114,3 +134,4 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
+

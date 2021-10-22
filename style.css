@@ -1,9 +1,13 @@
 .mainAbout {
-  padding: 3% 15%;
+  padding: 10% 15%;
+}
+
+.textBox{
+  padding: 5% 12%;
 }
 
 .navbar{
-  padding: 0 15%;
+  padding: 0 18%;
 
 }
 
@@ -20,25 +24,21 @@ hr {
 
 .mySkills{
   text-align: center;
-  padding: 3% 15%;
+  padding: 3% 20%;
 }
 
 
 .myProjects{
   text-align: center;
-  padding: 3% 15%;
+  padding: 3% 16%;
+}
+
+.line {
+  display: block;
 }
 
 footer{
   text-align: center;
-  padding: 3% 15%;
+  padding: 2% 15%;
 }
 
-.me{
-  text-align: center;
-}
-
-.right{
-  text-align:right;
-
-}
